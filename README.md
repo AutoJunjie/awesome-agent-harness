@@ -41,7 +41,7 @@ From the two seminal references above:
 
 Tools that span from requirements to delivery with human-in-the-loop approval.
 
-- [Chorus](https://github.com/Chorus-AIDLC/Chorus) — An agent harness that manages the full lifecycle above the coding agent: session state, task DAGs with dependency tracking, sub-agent orchestration, and human approval gates. Three agent roles (PM, Developer, Admin) collaborate through Idea → Proposal → Document + Task DAG → Execute → Verify. Implements "humans steer, agents execute" — agents propose work and break down requirements, humans review and approve before execution begins.
+- [Chorus](https://github.com/Chorus-AIDLC/Chorus) — Agent harness for session lifecycle, task DAGs, sub-agent orchestration, and human approval gates. Agents propose, humans verify.
 - [GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/) — GitHub Actions with coding agent engines (Copilot, Claude Code, Codex). Issue → agent → PR with sandboxing and permissions.
 
 ## Agent Orchestrators
