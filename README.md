@@ -41,7 +41,7 @@ From the two seminal references above:
 
 Tools that span from requirements to delivery with human-in-the-loop approval.
 
-- [Chorus](https://github.com/Chorus-AIDLC/Chorus) — Agent harness that wraps around LLM agents to manage session lifecycle, task state, sub-agent orchestration (Claude Code Agent Teams), and proof of work. Multiple AI agents (PM, Developer, Admin) and humans collaborate through the full workflow from requirements to delivery. Inspired by [AI-DLC](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/). Core philosophy: *Reversed Conversation* — AI proposes, humans verify.
+- [Chorus](https://github.com/Chorus-AIDLC/Chorus) — Agent harness that wraps around AI agents to manage session lifecycle, task state, sub-agent orchestration (Claude Code Agent Teams), and proof of work. Multiple AI agents (PM, Developer, Admin) and humans collaborate through the full workflow from requirements to delivery. Inspired by [AI-DLC](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/). Core philosophy: *Reversed Conversation* — AI proposes, humans verify.
 - [GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/) — GitHub Actions with coding agent engines (Copilot, Claude Code, Codex). Issue → agent → PR with sandboxing and permissions.
 
 ## Agent Orchestrators
