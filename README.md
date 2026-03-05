@@ -87,6 +87,7 @@ The execution layer — these are the agents that actually write code.
 - [Cursor Agent CLI](https://www.cursor.com/) — Cursor's command-line agent mode.
 - [GitHub Copilot CLI](https://github.com/github/copilot-cli) — GitHub's CLI coding agent.
 - [OpenClaw](https://github.com/openclaw/openclaw) — AI agent runtime. Orchestrates agents across messaging channels with skill system and sub-agent spawning.
+- [Kiro CLI](https://kiro.dev/) — AWS's CLI coding agent with spec-driven workflow.
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in your terminal.
 
 ## Requirements & Spec Tools
@@ -95,11 +96,13 @@ Tools for the "what to build" layer — specs, requirements, and task planning.
 
 - [OpenSpec](https://github.com/FissionAI/openspec) — Spec-driven development CLI. Generate structured specs from natural language.
 - [Spec Kit](https://github.com/github/spec-kit) — GitHub's spec generation toolkit.
+- [Kiro IDE](https://kiro.dev/) — AWS's spec-driven development IDE. Generates structured specs and manages requirements.
 - [agents.md](https://agents.md/) — Open standard for guiding AI coding agents with project-specific instructions.
 
 ## Standards & Protocols
 
 - [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) — Open standard for connecting AI models to external tools and data sources.
+- [Kiro IDE](https://kiro.dev/) — AWS's spec-driven development IDE. Generates structured specs and manages requirements.
 - [agents.md](https://agents.md/) — Open standard for project-level agent configuration.
 - [AGENTS.md](https://openai.com/index/introducing-agents-md/) — OpenAI's convention for repository-level agent instructions.
 
@@ -135,6 +138,3 @@ When suggesting additions, include:
 - A one-line description of what the tool does
 - Why it belongs in this list (which layer of the stack it addresses)
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
