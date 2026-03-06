@@ -64,9 +64,10 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 Task runners bridge the gap between issue trackers and coding agents. They embody the "humans steer, agents execute" principle: a human (or PM agent) creates the issue, the runner spawns an agent, and the output is a PR ready for review.
 
 - [Symphony](https://github.com/openai/symphony) — OpenAI's reference implementation of harness engineering. A daemon that polls Linear issues, spawns isolated Codex agents per task, and delivers PRs. Embodies "humans steer, agents execute" at scale.
+- [Baton](https://github.com/shayne-snap/baton) — Go implementation of Symphony. Polls Linear for claimable issues, spawns isolated Codex workspaces per issue, streams workflow prompts, and cleans up on completion.
 - [Linear Coding Agent Harness](https://github.com/coleam00/Linear-Coding-Agent-Harness) — Linear → autonomous coding agent → PR pipeline.
 - [GitHub Copilot Coding Agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/) — Built-in GitHub issue → Copilot agent → PR.
-- [Axon](https://github.com/axon-ai/axon) — Kubernetes-native framework. Apply a Task CRD, get back a PR and cost in USD. TaskSpawner watches GitHub Issues.
+- [Axon](https://github.com/axon-core/axon) — Kubernetes-native framework. Apply a Task CRD, get back a PR and cost in USD. TaskSpawner watches GitHub Issues.
 - [Dexto](https://github.com/truffle-ai/dexto) — Coding agent and general agent harness for building agentic applications.
 
 ## Agent Harness Frameworks
