@@ -111,9 +111,6 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [Pencil](https://pencil.dev/) — MCP-enabled design canvas inside VSCode/Cursor. Design files live in the repo under Git version control, bridging visual spec to code generation. Closed source.
 - [Open Pencil](https://github.com/nicepkg/open-pencil) — Open-source AI-native design editor (MIT). 75+ tools and an MCP server let coding agents read/write .fig files headlessly.
 
-Visual design tools that constrain agent output by providing design files as executable specs. Instead of free-form code generation, agents "build to blueprint" — the design file is the harness.
-
-
 ## Standards & Protocols
 
 - [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) — Open standard for connecting AI models to external tools and data sources.
