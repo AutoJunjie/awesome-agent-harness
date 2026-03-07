@@ -58,6 +58,7 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 - [Oh My OpenCode](https://github.com/code-yeongyu/oh-my-opencode) — Performance optimization harness for OpenCode with 44 lifecycle hooks.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Skills, instincts, memory, and security harness for Claude Code and Codex.
 - [Desplega Agent Swarm](https://github.com/desplega-ai/agent-swarm) — Open-source multi-agent orchestration framework. Coordinates specialized AI agents (Claude Code-powered) through task delegation, session continuity, shared memory, and service discovery. Features include epics, scheduling, Slack integration, and cross-agent communication channels.
+- [Composio Agent Orchestrator](https://github.com/ComposioHQ/agent-orchestrator) — Agentic orchestrator for parallel coding agents. Plans tasks, spawns agents in isolated worktrees, autonomously handles CI fixes, merge conflicts, and code reviews.
 - [Oh My AG](https://github.com/first-fluke/oh-my-ag) — Multi-agent harness for Google Antigravity with 6 specialized agents.
 
 ## Task Runners
@@ -80,6 +81,7 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 - [Harness Kit](https://github.com/deepklarity/harness-kit) — Patterns and engineering practices for building with AI agents.
 - [Desloppify](https://github.com/peteromallet/desloppify) — Agent harness focused on making AI-generated code well-engineered.
 - [Bridle](https://github.com/neiii/bridle) — TUI/CLI config manager for agent harnesses (Amp, Claude Code, OpenCode, Goose, Copilot CLI, Droid).
+- [DeerFlow 2.0](https://github.com/bytedance/deer-flow) — ByteDance's open-source SuperAgent harness. Skill system with on-demand loading, sub-agent orchestration, sandboxed execution, and persistent memory. Built on LangGraph/LangChain.
 - [Zylos](https://github.com/zylos-ai/zylos-core) — Persistent agent harness for Claude Code. Tiered memory system, skill-based progressive disclosure, multi-channel communication bridge, task scheduler, and activity monitor — enabling autonomous, long-running agents that remember across sessions.
 
 ## Agent Runtimes
@@ -98,7 +100,7 @@ The execution layer. In harness engineering, the agent is a commodity — the ha
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's CLI coding agent.
 - [Kiro CLI](https://kiro.dev/) — AWS's CLI coding agent with spec-driven workflow.
 - [Amp](https://amp.dev/) — Sourcegraph's coding agent.
-- [Cursor Agent CLI](https://www.cursor.com/) — Cursor's command-line agent mode.
+- [Cursor](https://www.cursor.com/) — Anysphere's coding agent IDE. New Automations feature (March 2026) enables event-triggered agent launches from code changes, Slack messages, or timers.
 - [GitHub Copilot CLI](https://github.com/github/copilot-cli) — GitHub's CLI coding agent.
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in your terminal.
 
@@ -118,6 +120,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) — Open standard for connecting AI models to external tools and data sources.
 - [agents.md](https://agents.md/) — Open standard for project-level agent configuration.
 - [AGENTS.md](https://openai.com/index/introducing-agents-md/) — OpenAI's convention for repository-level agent instructions.
+- [GitAgent](https://github.com/open-gitagent/gitagent) — Git-native, framework-agnostic standard for defining AI agents. Your repo is the agent: agent.yaml manifest + SOUL.md identity + RULES.md constraints.
 - [ACP (Agent Communication Protocol)](https://agentcommunicationprotocol.dev/) — Open protocol for agent-to-agent and agent-to-harness communication. Enables interoperability across coding agents and orchestrators.
 - [HXA-Connect](https://github.com/coco-xyz/hxa-connect) — B2B messaging hub for AI agents. WebSocket-based real-time communication with org-scoped authentication, collaboration threads, @mention routing, and reply-to threading. Enables multi-agent coordination across different harnesses.
 
@@ -136,6 +139,8 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [Conductors to Orchestrators: The Future of Agentic Coding](https://www.oreilly.com/radar/conductors-to-orchestrators-the-future-of-agentic-coding/) — O'Reilly overview of the orchestration landscape.
 - [My LLM Coding Workflow Going into 2026](https://medium.com/@addyosmani/my-llm-coding-workflow-going-into-2026-52fe1681325e) — Addy Osmani's specs-first approach.
 - [How the Claude Code Team Designs Agent Tools](https://www.anup.io/how-the-claude-code-team-designs-agent-tools/) — Analysis of progressive disclosure and tool subtraction in agent design.
+- [Your Agent Needs a Harness, Not a Framework](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) — Inngest on why agents need runtime harnesses over frameworks. References OpenClaw and pi coding-agent patterns.
+- [Harness Engineering: Why Agent Context Isn't Enough](https://hugobowne.substack.com/p/harness-engineering-why-agent-context) — Hugo Bowne-Anderson on why the environment matters more than the model.
 
 ### Talks
 
