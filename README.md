@@ -141,6 +141,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [How the Claude Code Team Designs Agent Tools](https://www.anup.io/how-the-claude-code-team-designs-agent-tools/) — Analysis of progressive disclosure and tool subtraction in agent design.
 - [Your Agent Needs a Harness, Not a Framework](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) — Inngest on why agents need runtime harnesses over frameworks. References OpenClaw and pi coding-agent patterns.
 - [Harness Engineering: Why Agent Context Isn't Enough](https://hugobowne.substack.com/p/harness-engineering-why-agent-context) — Hugo Bowne-Anderson on why the environment matters more than the model.
+- [Harness Engineering Is Cybernetics](https://x.com/odysseus0z/article/2030416758138634583) — George traces harness engineering back to Watt's governor and Wiener's cybernetics. The pattern repeats: sensor + actuator close the loop at a new layer. LLMs close it at the architectural layer — but only if you externalize your judgment into machine-readable specs.
 
 ### Talks
 
