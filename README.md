@@ -166,3 +166,4 @@ Development methodologies and workflow definitions designed for agentic software
 Contributions welcome! When suggesting additions, include:
 - A one-line description of what the tool does
 - Why it belongs in this list (which layer of the stack it addresses)
+- New entries should be appended to the end of their respective category, not inserted at the top
