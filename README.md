@@ -54,9 +54,6 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 - [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) — Kanban-based orchestrator with git worktree isolation per agent. Supports 10+ coding agents. Enforces the "one agent, one worktree" pattern that keeps parallel execution clean.
 - [Emdash](https://github.com/generalaction/emdash) — Open-source Agentic Development Environment (YC W26). Runs parallel agents in isolated worktrees, locally or over SSH — making the "corrections are cheap" principle practical for remote teams.
 - [Warp](https://github.com/warpdotdev/Warp) — Agentic development environment built for coding with multiple AI agents.
-- [VibeHQ](https://github.com/VibeHQ/vibehq) — Orchestrate multiple CLI agents (Claude Code, Codex, Gemini CLI) as a company team.
-- [Beehive](https://github.com/mbezhanov/beehive) — Multi-workspace agent orchestrator for parallel issue resolution.
-- [Agent Orchestrator](https://github.com/pkarnal/agent-orchestrator) — Lightweight orchestrator: `ao init --tracker github --agent claude-code --runtime tmux`.
 - [Oh My OpenCode](https://github.com/code-yeongyu/oh-my-opencode) — Performance optimization harness for OpenCode with 44 lifecycle hooks.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Skills, instincts, memory, and security harness for Claude Code and Codex.
 - [Desplega Agent Swarm](https://github.com/desplega-ai/agent-swarm) — Open-source multi-agent orchestration framework. Coordinates specialized AI agents (Claude Code-powered) through task delegation, session continuity, shared memory, and service discovery. Features include epics, scheduling, Slack integration, and cross-agent communication channels.
