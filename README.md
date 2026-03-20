@@ -35,6 +35,7 @@ From the two seminal references above:
 - [Coding Agents](#coding-agents)
 - [Requirements & Spec Tools](#requirements--spec-tools)
 - [Standards & Protocols](#standards--protocols)
+- [Methodologies & Workflows](#methodologies--workflows)
 - [Reference & Knowledge](#reference--knowledge)
 - [Contributing](#contributing)
 
@@ -124,6 +125,12 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [GitAgent](https://github.com/open-gitagent/gitagent) — Git-native, framework-agnostic standard for defining AI agents. Your repo is the agent: agent.yaml manifest + SOUL.md identity + RULES.md constraints.
 - [ACP (Agent Communication Protocol)](https://agentcommunicationprotocol.dev/) — Open protocol for agent-to-agent and agent-to-harness communication. Enables interoperability across coding agents and orchestrators.
 - [HXA-Connect](https://github.com/coco-xyz/hxa-connect) — B2B messaging hub for AI agents. WebSocket-based real-time communication with org-scoped authentication, collaboration threads, @mention routing, and reply-to threading. Enables multi-agent coordination across different harnesses.
+
+## Methodologies & Workflows
+
+Development methodologies and workflow definitions designed for agentic software development.
+
+- [AI-DLC Workflows](https://github.com/awslabs/aidlc-workflows) — AWS's AI-Driven Development Life Cycle. A three-phase adaptive workflow (understand → plan → build) implemented as agent rules for Amazon Q, Claude Code, and other coding agents. Generates structured specs, enforces quality gates, and keeps humans in control. Based on the [AI-DLC methodology](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/).
 
 ## Reference & Knowledge
 
