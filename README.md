@@ -149,6 +149,7 @@ Development methodologies and workflow definitions designed for agentic software
 - [Harness Engineering Is Cybernetics](https://x.com/odysseus0z/article/2030416758138634583) — George traces harness engineering back to Watt's governor and Wiener's cybernetics. The pattern repeats: sensor + actuator close the loop at a new layer. LLMs close it at the architectural layer — but only if you externalize your judgment into machine-readable specs.
 - [Agent Harness vs Agent Framework](https://x.com/tonykipkemboi/status/2031068470922670471) — Tony Kipkemboi (ex-CrewAI) maps agent development on a spectrum: raw API → framework (CrewAI/LangChain) → harness (OpenClaw). Frameworks give building blocks, harnesses give turnkey systems.
 - [The Anatomy of an Agent Harness](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) — LangChain's Vivek Trivedy breaks down the harness into core components: state, tool execution, feedback loops, and enforceable constraints. Derives each piece from what models can't do out of the box.
+- - [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps) — Anthropic's Prithvi Rajasekaran on building a three-agent (planner, generator, evaluator) harness for multi-hour autonomous coding sessions, with lessons on context resets, sprint contracts, and iterating harness complexity as models improve.
 
 ### Talks
 
