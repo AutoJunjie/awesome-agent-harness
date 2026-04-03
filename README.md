@@ -170,6 +170,7 @@ Development methodologies and workflow definitions designed for agentic software
 - [Harness Engineering: Complete Guide 2026](https://www.nxcode.io/resources/news/what-is-harness-engineering-complete-guide-2026) — NxCode's comprehensive guide to harness engineering as a discipline: core concepts, agent=CPU/context=RAM/harness=OS analogy, and practical implementation patterns.
 - [The Harness as the Agentic Moat](https://businessengineer.ai/p/the-harness-as-the-agentic-moat) — Why the harness is the engineering response to model context loss, and why it constitutes a defensible competitive advantage.
 - [From Vibe Coding to Multi-Agent Orchestration](https://www.cio.com/article/4150165/from-vibe-coding-to-multi-agent-ai-orchestration-redefining-software-development.html) — CIO magazine on the shift from individual AI coding to orchestrated multi-agent development. Marks harness engineering's entry into mainstream business media.
+- [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps) — Anthropic's Prithvi Rajasekaran on building a three-agent (planner, generator, evaluator) harness for multi-hour autonomous coding sessions, with lessons on context resets, sprint contracts, and iterating harness complexity as models improve.
 
 ### Talks
 
