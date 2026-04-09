@@ -46,7 +46,7 @@ Tools that span from requirements to delivery with human-in-the-loop approval.
 
 - [Chorus](https://github.com/Chorus-AIDLC/Chorus) — Agent harness for requirements-to-delivery. Task DAGs, sub-agent orchestration (Agent Teams), proof of work, human approval gates. AI proposes, humans verify.
 
-<p align="center"><video src="https://github.com/Chorus-AIDLC/Chorus/blob/main/docs/images/demo.mp4" controls></video></p>
+<p align="center"><video src="https://github.com/AutoJunjie/awesome-agent-harness/edit/main/demo.mp4" controls></video></p>
 
 - [GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/) — GitHub Actions with coding agent engines (Copilot, Claude Code, Codex). Issue → agent → PR with sandboxing and permissions.
 - [Almirant](https://almirant.ai/?utm_source=awesome-agent-harness&utm_medium=awesome-list&utm_campaign=march-2026) — Operating system for human-agent teams. Persistent context across sessions, shared memory between agents, structured task lifecycle (plan → implement → review → deploy), and human approval gates. Designed for teams where humans and agents work together continuously — not just one-shot task execution.
