@@ -53,7 +53,6 @@ Tools that span from requirements to delivery with human-in-the-loop approval.
 
 Orchestrators solve the throughput problem: at high agent velocity, you need parallel execution with worktree isolation so agents don't step on each other. As OpenAI found, "corrections are cheap, waiting is expensive" — these tools maximize concurrent agent throughput.
 
-- [Bernstein](https://github.com/chernistry/bernstein) — Deterministic multi-agent orchestrator: spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI) in isolated git worktrees, verifies output with tests, auto-commits clean code — zero LLM tokens spent on coordination.
 - [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) — Kanban-based orchestrator with git worktree isolation per agent. Supports 10+ coding agents. Enforces the "one agent, one worktree" pattern that keeps parallel execution clean.
 - [Emdash](https://github.com/generalaction/emdash) — Open-source Agentic Development Environment (YC W26). Runs parallel agents in isolated worktrees, locally or over SSH — making the "corrections are cheap" principle practical for remote teams.
 - [Warp](https://github.com/warpdotdev/Warp) — Agentic development environment built for coding with multiple AI agents.
@@ -65,6 +64,7 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 - [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex) — Hooks, agent teams, and HUD for Codex. Adds lifecycle hooks and multi-agent coordination on top of OpenAI's CLI agent.
 - [Oh My Claude Code](https://github.com/Yeachan-Heo/oh-my-claudecode) — Teams-first multi-agent orchestration for Claude Code. Ultrapilot mode runs 5 Claude Code instances in parallel Git worktrees, compressing 4-hour tasks to 50 minutes.
 - [ruflo](https://github.com/ruflo-ai/ruflo) — Claude agent orchestration with swarm mode. Coordinates multiple Claude Code agents for parallel task execution.
+- [Bernstein](https://github.com/chernistry/bernstein) — Deterministic multi-agent orchestrator: spawns parallel AI coding agents (Claude Code, Codex CLI, Gemini CLI) in isolated git worktrees, verifies output with tests, auto-commits clean code — zero LLM tokens spent on coordination.
 
 ## Task Runners
 
