@@ -64,6 +64,7 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 - [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex) — Hooks, agent teams, and HUD for Codex. Adds lifecycle hooks and multi-agent coordination on top of OpenAI's CLI agent.
 - [Oh My Claude Code](https://github.com/Yeachan-Heo/oh-my-claudecode) — Teams-first multi-agent orchestration for Claude Code. Ultrapilot mode runs 5 Claude Code instances in parallel Git worktrees, compressing 4-hour tasks to 50 minutes.
 - [ruflo](https://github.com/ruflo-ai/ruflo) — Claude agent orchestration with swarm mode. Coordinates multiple Claude Code agents for parallel task execution.
+- [Scion](https://github.com/GoogleCloudPlatform/scion) — Google's open-source multi-agent orchestration testbed. Manages "deep agents" (Claude Code, Gemini CLI, Codex) as isolated, concurrent processes — each gets its own container, git worktree, and credentials. Agent memory, chatrooms, and task management as orthogonal, pluggable modules.
 
 ## Task Runners
 
@@ -90,12 +91,15 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 - [Zylos](https://github.com/zylos-ai/zylos-core) — Persistent agent harness for Claude Code. Tiered memory system, skill-based progressive disclosure, multi-channel communication bridge, task scheduler, and activity monitor — enabling autonomous, long-running agents that remember across sessions.
 - [Hive](https://github.com/aden-hive/hive) — Outcome-driven agent framework. Queen agent generates agent graphs, harness manages state, checkpoints, and cost tracking.
 - [Meta-Harness](https://yoonholee.com/meta-harness/) — Academic approach to automated harness optimization using Claude Code for end-to-end harness tuning.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Microsoft's framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Supports Python and .NET with structured orchestration patterns.
 
 ## Agent Runtimes
 
 The persistent infrastructure layer. Agent runtimes give coding agents long-running capabilities they lack natively: persistent memory, cron scheduling, multi-channel messaging, and sub-agent spawning. If orchestrators solve throughput and task runners solve issue-to-PR, runtimes solve "how does an agent stay alive and connected between tasks."
 
 - [OpenClaw](https://github.com/openclaw/openclaw) — AI agent runtime. Orchestrates agents across messaging channels with skill system, sub-agent spawning, and persistent session management.
+- [Nanoclaw](https://github.com/qwibitai/nanoclaw) — Lightweight alternative to OpenClaw that runs in containers. Connects to WhatsApp, Telegram, and other channels with a security-first, container-based isolation model.
+- [Claude Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's managed agent infrastructure. Pre-built, configurable agent harness running on managed infra — you define agent templates (tools, skills, repos), Anthropic provides the harness and execution environment. Decouples "brain" (Claude + harness) from "hands" (sandboxes + tools) and "session" (event log). Designed for long-horizon tasks as Claude's task horizon grows exponentially.
 
 ## Agent Knowledge & Memory
 
@@ -104,6 +108,7 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 - [claude-mem](https://github.com/thedotmack/claude-mem) — Automatic session capture with AI compression and injection into future sessions. Solves the stateless-agent problem by giving Claude Code persistent memory across runs.
 - [cq](https://github.com/nicholasgasior/cq) — Mozilla developer project enabling AI coding agents to share learned knowledge. A commons where agents deposit and retrieve solutions, avoiding redundant problem-solving. Has Claude Code and OpenCode plugins.
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
+- [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
 
 ## Coding Agents
 
@@ -119,6 +124,8 @@ The execution layer. In harness engineering, the agent is a commodity — the ha
 - [GitHub Copilot CLI](https://github.com/github/copilot-cli) — GitHub's CLI coding agent.
 - [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in your terminal.
 - [Warp AI](https://www.warp.dev/) — Terminal-native coding agent with built-in AI. Agentic workflows inside the terminal itself.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Self-improving agent loop with persistent memory and self-generated skills. The agent that grows with you — learns from execution history and evolves its own capabilities over time.
+- [Pi Mono](https://github.com/badlogic/pi-mono) — AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods. Full-stack agent infrastructure in a single monorepo.
 
 ## Requirements & Spec Tools
 
@@ -171,6 +178,10 @@ Development methodologies and workflow definitions designed for agentic software
 - [The Harness as the Agentic Moat](https://businessengineer.ai/p/the-harness-as-the-agentic-moat) — Why the harness is the engineering response to model context loss, and why it constitutes a defensible competitive advantage.
 - [From Vibe Coding to Multi-Agent Orchestration](https://www.cio.com/article/4150165/from-vibe-coding-to-multi-agent-ai-orchestration-redefining-software-development.html) — CIO magazine on the shift from individual AI coding to orchestrated multi-agent development. Marks harness engineering's entry into mainstream business media.
 - [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps) — Anthropic's Prithvi Rajasekaran on building a three-agent (planner, generator, evaluator) harness for multi-hour autonomous coding sessions, with lessons on context resets, sprint contracts, and iterating harness complexity as models improve.
+- [Launching Claude Managed Agents](https://x.com/rlancemartin/status/2041927992986009773) — Lance Martin (Anthropic) introduces Claude Managed Agents: pre-built configurable harness on managed infra. Decouples brain/hands/session, designed for long-horizon tasks. Includes engineering blog, SDK docs, and usage patterns.
+- [The Design of Claude Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic engineering deep-dive on building agents to scale with model intelligence as an infrastructure challenge, not just harness design. Agent config + environment template + stateful session as the three core primitives.
+- [Harness Engineering: Structured Workflows for AI-Assisted Development](https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development) — Red Hat's take on harness engineering as a formal practice for enterprise AI development teams.
+- [Components of a Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) — Sebastian Raschka decomposes coding agents into model family + agent loop + runtime supports. Systematic breakdown of the harness stack.
 
 ### Talks
 
