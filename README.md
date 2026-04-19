@@ -51,6 +51,7 @@ Tools that span from requirements to delivery with human-in-the-loop approval.
 - [GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/) — GitHub Actions with coding agent engines (Copilot, Claude Code, Codex). Issue → agent → PR with sandboxing and permissions.
 - [Almirant](https://almirant.ai/?utm_source=awesome-agent-harness&utm_medium=awesome-list&utm_campaign=march-2026) — Operating system for human-agent teams. Persistent context across sessions, shared memory between agents, structured task lifecycle (plan → implement → review → deploy), and human approval gates. Designed for teams where humans and agents work together continuously — not just one-shot task execution.
 - [Paperclip](https://github.com/paperclipai/paperclip) — Open-source orchestration for zero-human companies. Budget/cost tracking, company templates (ClipMart), and autonomous agent coordination. Pushes the "agents execute" principle to its extreme — designed for fully autonomous operation with no human in the loop.
+- [Multica](https://github.com/multica-ai/multica) — Open-source managed agents platform. "Turn coding agents into real teammates" — assign tasks, track progress, compound skills across sessions. Validates the core premise that agents need team-level management, not just individual harnesses.
 
 ## Agent Orchestrators
 
@@ -69,6 +70,8 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 - [ruflo](https://github.com/ruflo-ai/ruflo) — Claude agent orchestration with swarm mode. Coordinates multiple Claude Code agents for parallel task execution.
 - [Scion](https://github.com/GoogleCloudPlatform/scion) — Google's open-source multi-agent orchestration testbed. Manages "deep agents" (Claude Code, Gemini CLI, Codex) as isolated, concurrent processes — each gets its own container, git worktree, and credentials. Agent memory, chatrooms, and task management as orthogonal, pluggable modules.
 - [Gas Town](https://github.com/gastownhall/gastown) — Steve Yegge's multi-agent workspace manager. Docker-based with a "Mayor" orchestrator that distributes work as "beads" across agent "convoys." Includes web dashboard, git worktree isolation, and hook-based work state management.
+- [Octogent](https://github.com/hesamsheikh/octogent) — Claude Code multi-agent orchestration dashboard. Humans control worker agents directly from the orchestration layer with real-time visibility into parallel execution.
+- [Trellis](https://github.com/mindfold-ai/trellis) — Git worktree-based multi-agent parallel harness. Isolates agents into separate worktrees for clean concurrent execution.
 
 ## Task Runners
 
@@ -81,6 +84,7 @@ Task runners bridge the gap between issue trackers and coding agents. They embod
 - [Axon](https://github.com/axon-core/axon) — Kubernetes-native framework. Apply a Task CRD, get back a PR and cost in USD. TaskSpawner watches GitHub Issues.
 - [Dexto](https://github.com/truffle-ai/dexto) — Coding agent and general agent harness for building agentic applications.
 - [Claude World](https://claudeworld.ai/) — SaaS for leading Claude Code like a team director. Task-to-PR pipeline with built-in orchestration and monitoring.
+- [ralph](https://github.com/snarktank/ralph) — PRD-driven autonomous agent loop. Runs until all PRD items are completed, bridging spec-to-execution for single-agent workflows.
 
 ## Agent Harness Frameworks
 
@@ -96,6 +100,10 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 - [Hive](https://github.com/aden-hive/hive) — Outcome-driven agent framework. Queen agent generates agent graphs, harness manages state, checkpoints, and cost tracking.
 - [Meta-Harness](https://yoonholee.com/meta-harness/) — Academic approach to automated harness optimization using Claude Code for end-to-end harness tuning.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — Microsoft's framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Supports Python and .NET with structured orchestration patterns.
+- [GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent framework. Grows a skill tree from 3.3K lines of seed code, achieving 6x token efficiency reduction through learned capabilities.
+- [EvoMap Evolver](https://github.com/EvoMap/evolver) — Genome Evolution Protocol (GEP) engine for agent self-evolution. Applies evolutionary algorithms to optimize agent behavior and harness configuration over time.
+- [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) — Cross-agent standardized plugin for Claude Code, Codex, and Cursor. Unified harness interface across multiple coding agents.
+- [get-shit-done](https://github.com/gsd-build/get-shit-done) — Meta-prompting and context engineering system for Claude Code. Structures work as milestone→phase→plan with progressive context delivery.
 
 ## Agent Runtimes
 
@@ -114,6 +122,7 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 - [cq](https://github.com/nicholasgasior/cq) — Mozilla developer project enabling AI coding agents to share learned knowledge. A commons where agents deposit and retrieve solutions, avoiding redundant problem-solving. Has Claude Code and OpenCode plugins.
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
+- [CodeBurn](https://github.com/AgentSeal/codeburn) — Claude Code token usage analytics. Breaks down token consumption by task, enabling cost attribution and optimization.
 
 ## Coding Agents
 
@@ -142,6 +151,8 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [agents.md](https://agents.md/) — Open standard for project-level agent instructions. Following the principle that "AGENTS.md is a table of contents, not an encyclopedia" — it should point to deeper sources of truth.
 - [Pencil](https://pencil.dev/) — MCP-enabled design canvas inside VSCode/Cursor. Design files live in the repo under Git version control, bridging visual spec to code generation. Closed source.
 - [Open Pencil](https://github.com/open-pencil/open-pencil) — Open-source AI-native design editor (MIT). 75+ tools and an MCP server let coding agents read/write .fig files headlessly.
+- [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) — Anthropic's design tool with direct handoff to Claude Code. Closes the design-to-code loop for solo developers and agent workflows.
+- [Archon](https://github.com/coleam00/Archon) — First open-source harness builder. Makes AI coding deterministic and repeatable through structured harness configuration.
 
 ## Standards & Protocols
 
@@ -187,6 +198,11 @@ Development methodologies and workflow definitions designed for agentic software
 - [The Design of Claude Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic engineering deep-dive on building agents to scale with model intelligence as an infrastructure challenge, not just harness design. Agent config + environment template + stateful session as the three core primitives.
 - [Harness Engineering: Structured Workflows for AI-Assisted Development](https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development) — Red Hat's take on harness engineering as a formal practice for enterprise AI development teams.
 - [Components of a Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) — Sebastian Raschka decomposes coding agents into model family + agent loop + runtime supports. Systematic breakdown of the harness stack.
+- [It's The Harness, Stupid](https://hyperdev.matsuoka.com/p/its-the-harness-stupid) — Developer benchmarks 8 coding agents across 5 challenges. Conclusion: choosing an AI coding tool is now an engineering decision, not a model selection decision.
+- [AI Agent Harness Pricing Split](https://thenewstack.io/ai-agent-harness-pricing-split/) — The New Stack reports on industry consensus: Anthropic, OpenAI, Google, and Microsoft all agree the harness is the product — but diverge on pricing strategy.
+- [Skills Are Harness Engineering You Can Do in a Markdown File](https://www.ikangai.com/skills-are-harness-engineering-you-can-do-in-a-markdown-file) — Defining "Skills" as the most accessible form of harness engineering: structured Markdown files that shape agent behavior without code changes.
+- [Harness Engineering Guide](https://agentic-engineering.swmansion.com/becoming-productive/harness-engineering/) — Software Mansion's comprehensive guide to harness engineering as a practice. Covers environment design, constraint enforcement, and feedback loop construction.
+- [Multi-Agent Coordination Patterns](https://claude.com/blog/multi-agent-coordination-patterns) — Anthropic documents the "cheap executor + expensive advisor" pattern. Haiku for execution, Opus for decisions — reshaping the cost structure of agent orchestration.
 
 ### Talks
 
