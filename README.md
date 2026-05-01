@@ -85,6 +85,7 @@ Task runners bridge the gap between issue trackers and coding agents. They embod
 - [Dexto](https://github.com/truffle-ai/dexto) — Coding agent and general agent harness for building agentic applications.
 - [Claude World](https://claudeworld.ai/) — SaaS for leading Claude Code like a team director. Task-to-PR pipeline with built-in orchestration and monitoring.
 - [ralph](https://github.com/snarktank/ralph) — PRD-driven autonomous agent loop. Runs until all PRD items are completed, bridging spec-to-execution for single-agent workflows.
+- [AgentPlane](https://github.com/basilisk-labs/agentplane) — Git-native workflow control harness for repo-local coding-agent work. Treats repository-local task records, workflow policy, verification evidence, and finish closure as the system of record.
 
 ## Agent Harness Frameworks
 
