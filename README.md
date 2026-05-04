@@ -176,6 +176,7 @@ Development methodologies and workflow definitions designed for agentic software
 - [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering/) — OpenAI's defining blog post. How they built 1M+ lines with zero human-written code. Introduced the concepts of repository knowledge as system of record, progressive context disclosure, and mechanical architecture enforcement.
 - [Lessons from Building Claude Code: Seeing Like an Agent](https://x.com/trq212/status/2027463795355095314) — Thariq (Claude Code lead) on designing agent action spaces. Fewer tools beat more tools. Progressive disclosure outperforms upfront loading. The harness must evolve with the model.
 - [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Anthropic's guide: simple, composable patterns beat complex frameworks.
+- [Many Hands Engineering](https://github.com/mseeks/many-hands-engineering/blob/main/many-hands-engineering.pdf) — Handbook on the coordination layer above the per-agent harness: planned vs. emergent placement, governed commons, pace layers, and the steward's role. Builds explicitly on the harness engineering work of OpenAI, Anthropic, Hashimoto, and Böckeler.
 
 ### Articles
 
