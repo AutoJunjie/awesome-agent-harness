@@ -123,6 +123,7 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
 - [CodeBurn](https://github.com/AgentSeal/codeburn) — Claude Code token usage analytics. Breaks down token consumption by task, enabling cost attribution and optimization.
+- [agenttrace](https://github.com/luoyuctl/agenttrace) — Local-first TUI and CLI for evaluating AI coding agent sessions. Turns trace logs into cost, token, latency, and health regression gates for agent harness feedback loops.
 
 ## Coding Agents
 
