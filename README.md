@@ -153,6 +153,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [Open Pencil](https://github.com/open-pencil/open-pencil) — Open-source AI-native design editor (MIT). 75+ tools and an MCP server let coding agents read/write .fig files headlessly.
 - [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) — Anthropic's design tool with direct handoff to Claude Code. Closes the design-to-code loop for solo developers and agent workflows.
 - [Archon](https://github.com/coleam00/Archon) — First open-source harness builder. Makes AI coding deterministic and repeatable through structured harness configuration.
+- [NotFair](https://notfair.co) - Google Ads MCP server. Connect Claude and AI agents to a Google Ads account: diagnose campaign performance, recommend optimizations, and execute approved changes via the Google Ads API. Source: github.com/nowork-studio/toprank. Free tier available.
 
 ## Standards & Protocols
 
