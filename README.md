@@ -113,6 +113,7 @@ The persistent infrastructure layer. Agent runtimes give coding agents long-runn
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Library for building stateful, multi-actor applications with LLMs. Functions as an agent runtime managing execution, state, and coordination of agentic workflows. Built on LangChain.
 - [Nanoclaw](https://github.com/qwibitai/nanoclaw) — Lightweight alternative to OpenClaw that runs in containers. Connects to WhatsApp, Telegram, and other channels with a security-first, container-based isolation model.
 - [Claude Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's managed agent infrastructure. Pre-built, configurable agent harness running on managed infra — you define agent templates (tools, skills, repos), Anthropic provides the harness and execution environment. Decouples "brain" (Claude + harness) from "hands" (sandboxes + tools) and "session" (event log). Designed for long-horizon tasks as Claude's task horizon grows exponentially.
+- [APort](https://aport.io/) — Runtime policy and verification layer for AI agents and MCP tools. It helps harness builders constrain tool use and keep auditable approvals around agent actions.
 
 ## Agent Knowledge & Memory
 
