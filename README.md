@@ -123,6 +123,7 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
 - [CodeBurn](https://github.com/AgentSeal/codeburn) — Claude Code token usage analytics. Breaks down token consumption by task, enabling cost attribution and optimization.
+- [Puppyone](https://github.com/puppyone-ai/puppyone) — File system built for AI agents. The storage layer for agent harness engineering: per-agent File Level Security, auto-snapshotted versioning with one-click rollback, audit logs, and 15+ built-in connectors (Notion, GitHub, Drive) that sync external context as agent-readable files. Accessible via MCP, REST API, CLI, and sandboxed bash.
 
 ## Coding Agents
 
