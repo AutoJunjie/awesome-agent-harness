@@ -93,6 +93,7 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 - [Deep Agents](https://github.com/langchain-ai/deepagents) — Agent harness built on LangChain/LangGraph. Implements progressive disclosure through planning tools and subagent spawning — agents discover context layer by layer rather than loading everything upfront.
 - [Gambit](https://github.com/bolt-foundry/gambit) — Framework for building, running, and verifying LLM workflows.
 - [Harness Kit](https://github.com/deepklarity/harness-kit) — Patterns and engineering practices for building with AI agents.
+- [harness-starter-kit](https://github.com/baskduf/harness-starter-kit) — Prompt-first starter kit for adding durable coding-agent instructions, knowledge stores, feedback loops, and drift checks to software projects.
 - [Desloppify](https://github.com/peteromallet/desloppify) — Agent harness focused on making AI-generated code well-engineered.
 - [Bridle](https://github.com/neiii/bridle) — TUI/CLI config manager for agent harnesses (Amp, Claude Code, OpenCode, Goose, Copilot CLI, Droid).
 - [DeerFlow 2.0](https://github.com/bytedance/deer-flow) — ByteDance's open-source SuperAgent harness. Skill system with on-demand loading, sub-agent orchestration, sandboxed execution, and persistent memory. Built on LangGraph/LangChain.
