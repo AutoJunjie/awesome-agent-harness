@@ -109,6 +109,7 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 
 The persistent infrastructure layer. Agent runtimes give coding agents long-running capabilities they lack natively: persistent memory, cron scheduling, multi-channel messaging, and sub-agent spawning. If orchestrators solve throughput and task runners solve issue-to-PR, runtimes solve "how does an agent stay alive and connected between tasks."
 
+- [MartinLoop](https://github.com/Keesan12/martin-loop) — Open-source control plane and governed runtime for AI coding agents. Adds budget caps, verifier gates, rollback evidence, compact run receipts, MCP tooling, and inspectable run records around autonomous agent execution.
 - [OpenClaw](https://github.com/openclaw/openclaw) — AI agent runtime. Orchestrates agents across messaging channels with skill system, sub-agent spawning, and persistent session management.
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Library for building stateful, multi-actor applications with LLMs. Functions as an agent runtime managing execution, state, and coordination of agentic workflows. Built on LangChain.
 - [Nanoclaw](https://github.com/qwibitai/nanoclaw) — Lightweight alternative to OpenClaw that runs in containers. Connects to WhatsApp, Telegram, and other channels with a security-first, container-based isolation model.
