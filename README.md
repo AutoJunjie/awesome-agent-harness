@@ -154,6 +154,8 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) — Anthropic's design tool with direct handoff to Claude Code. Closes the design-to-code loop for solo developers and agent workflows.
 - [Archon](https://github.com/coleam00/Archon) — First open-source harness builder. Makes AI coding deterministic and repeatable through structured harness configuration.
 
+- [calionauta/stelow](https://github.com/calionauta/stelow) — Opinionated agentic product workflow orchestrator that makes AI agents behave like cross-functional product teams. Transforms raw ideas into typed technical scopes (feature, spike, optimize, test-*) through Shape Up methodology (IN/OUT boundaries, appetite-driven sizing), adversarial plan critique, visual review gates (Plannotator), and acceptance-based execution with audit gap-to-scope loops. Ships 25 skills across strategic approaches (JTBD, Opportunity Mapping), domain tactics (Pricing, Trust, Ads), and workflow stages (Codebase Critique, UX Audit). CLI-agnostic (Pi, Claude Code, Codex, OpenCode).
+
 ## Standards & Protocols
 
 - [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) — Open standard for connecting AI models to external tools and data sources.
