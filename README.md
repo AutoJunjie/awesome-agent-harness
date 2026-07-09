@@ -72,6 +72,7 @@ Orchestrators solve the throughput problem: at high agent velocity, you need par
 - [Gas Town](https://github.com/gastownhall/gastown) — Steve Yegge's multi-agent workspace manager. Docker-based with a "Mayor" orchestrator that distributes work as "beads" across agent "convoys." Includes web dashboard, git worktree isolation, and hook-based work state management.
 - [Octogent](https://github.com/hesamsheikh/octogent) — Claude Code multi-agent orchestration dashboard. Humans control worker agents directly from the orchestration layer with real-time visibility into parallel execution.
 - [Trellis](https://github.com/mindfold-ai/trellis) — Git worktree-based multi-agent parallel harness. Isolates agents into separate worktrees for clean concurrent execution.
+- [AgentBox](https://github.com/madarco/agentbox) — Runs multiple coding agents (Claude Code, Codex, OpenCode) in parallel, each teleported into its own sandboxed VM across local Docker, self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B). Sub-1s checkpoint startup and worktree isolation; git credentials stay on the host rather than being injected into the box.
 
 ## Task Runners
 
