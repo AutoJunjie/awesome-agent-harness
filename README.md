@@ -214,6 +214,7 @@ Development methodologies and workflow definitions designed for agentic software
 
 - [agent-harness](https://github.com/MattMagg/agent-harness) — Principles, checklists, and invariants for AI coding workflows.
 - [harness-kit](https://github.com/deepklarity/harness-kit) — Engineering patterns for building with AI agents.
+- [awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) — Trilingual, section-by-section reconstruction of modern agent harnesses (loop engineering, tools, permissions, context, memory, evaluation) studied through systems such as Claude Code and Hermes Agent, with runnable Python demos. Covers the knowledge layer of the stack: how existing harnesses are actually built.
 
 ## Contributing
 
