@@ -90,6 +90,7 @@ Task runners bridge the gap between issue trackers and coding agents. They embod
 
 Frameworks for building custom harnesses. Following the principle that "fewer tools, more expressiveness" beats sprawling toolkits, these provide composable primitives rather than opinionated workflows.
 
+- [AOHP](https://github.com/aohp-os/aohp) — OS-level agent harness that lets the OS proactively adapt to its user via agentic AI, enabling personalized, efficient and secure interaction. Paper: https://arxiv.org/abs/2606.23449
 - [Deep Agents](https://github.com/langchain-ai/deepagents) — Agent harness built on LangChain/LangGraph. Implements progressive disclosure through planning tools and subagent spawning — agents discover context layer by layer rather than loading everything upfront.
 - [Gambit](https://github.com/bolt-foundry/gambit) — Framework for building, running, and verifying LLM workflows.
 - [Harness Kit](https://github.com/deepklarity/harness-kit) — Patterns and engineering practices for building with AI agents.
