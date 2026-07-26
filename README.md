@@ -215,6 +215,10 @@ Development methodologies and workflow definitions designed for agentic software
 - [agent-harness](https://github.com/MattMagg/agent-harness) — Principles, checklists, and invariants for AI coding workflows.
 - [harness-kit](https://github.com/deepklarity/harness-kit) — Engineering patterns for building with AI agents.
 
+### Benchmarks & Evaluation
+
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) — Open-source benchmark for browser agents across 283 live-website tasks, with Docker-isolated runs, interchangeable agent harnesses, and five-layer replay traces for comparing end-to-end behavior.
+
 ## Contributing
 
 Contributions welcome! When suggesting additions, include:
