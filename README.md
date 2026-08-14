@@ -214,6 +214,7 @@ Development methodologies and workflow definitions designed for agentic software
 
 - [agent-harness](https://github.com/MattMagg/agent-harness) — Principles, checklists, and invariants for AI coding workflows.
 - [harness-kit](https://github.com/deepklarity/harness-kit) — Engineering patterns for building with AI agents.
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) — Source-backed, agent-first documentation for a plugin-composed runtime, mapping profiles, the agent loop, session events, tools, approval and sandbox boundaries, Skills, subagents, MCP, and runnable examples. It belongs here as an operational reference for seeing the major harness layers and their failure modes together in one implementation.
 
 ## Contributing
 
