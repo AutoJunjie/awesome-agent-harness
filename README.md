@@ -104,6 +104,7 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 - [EvoMap Evolver](https://github.com/EvoMap/evolver) — Genome Evolution Protocol (GEP) engine for agent self-evolution. Applies evolutionary algorithms to optimize agent behavior and harness configuration over time.
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) — Cross-agent standardized plugin for Claude Code, Codex, and Cursor. Unified harness interface across multiple coding agents.
 - [get-shit-done](https://github.com/gsd-build/get-shit-done) — Meta-prompting and context engineering system for Claude Code. Structures work as milestone→phase→plan with progressive context delivery.
+- [MCP Lens](https://github.com/labmimors/dsh-mcp-lens) — DeepSeek Harness plugin that keeps remote MCP tools behind two model-facing interfaces, reveals exact input schemas on demand, and enforces allow/deny policy at call time.
 
 ## Agent Runtimes
 
