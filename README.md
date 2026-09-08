@@ -204,6 +204,8 @@ Development methodologies and workflow definitions designed for agentic software
 - [Harness Engineering Guide](https://agentic-engineering.swmansion.com/becoming-productive/harness-engineering/) — Software Mansion's comprehensive guide to harness engineering as a practice. Covers environment design, constraint enforcement, and feedback loop construction.
 - [Multi-Agent Coordination Patterns](https://claude.com/blog/multi-agent-coordination-patterns) — Anthropic documents the "cheap executor + expensive advisor" pattern. Haiku for execution, Opus for decisions — reshaping the cost structure of agent orchestration.
 
+- [Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763) — TaoLive's technical report on an evolvable agent runtime and training across skills, tools, prompts, and hooks to support later harness updates.
+
 ### Talks
 
 - [The Future of Coding is Agents — Andrej Karpathy (YC)](https://www.youtube.com/watch?v=fqVLjtvWgq8) — Landmark talk on the trajectory from assistants to agents.
