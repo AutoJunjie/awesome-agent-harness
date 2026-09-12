@@ -33,6 +33,7 @@ From the two seminal references above:
 - [Agent Harness Frameworks](#agent-harness-frameworks)
 - [Agent Runtimes](#agent-runtimes)
 - [Agent Knowledge & Memory](#agent-knowledge--memory)
+- [Run Capture & Replay](#run-capture--replay)
 - [Coding Agents](#coding-agents)
 - [Requirements & Spec Tools](#requirements--spec-tools)
 - [Standards & Protocols](#standards--protocols)
@@ -123,6 +124,14 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
 - [CodeBurn](https://github.com/AgentSeal/codeburn) — Claude Code token usage analytics. Breaks down token consumption by task, enabling cost attribution and optimization.
+
+## Run Capture & Replay
+
+Principle 7 — *see like an agent* — needs something that kept the run. These tools capture what a
+session actually did, so a failure can be inspected after the fact rather than reconstructed from
+memory, and in some cases re-executed without paying for the model again.
+
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — Records a coding-agent session from outside the process and replays it offline: the same run again, served from the trace, with no model called and no key needed. Adapters for Claude Code, Codex, goose, opencode, Cursor and others; the verdict is a number (`reused=6/6 exact=6 divergences=0`), not a log to read.
 
 ## Coding Agents
 
