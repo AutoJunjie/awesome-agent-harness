@@ -130,6 +130,7 @@ The execution layer. In harness engineering, the agent is a commodity — the ha
 
 - [Claude Code](https://code.claude.com/) — Anthropic's coding agent. The team's own harness pioneered "seeing like an agent" — progressive disclosure via skill files, fewer composable tools over many narrow ones. Agent Teams enables multi-agent coordination. The Claude Agent SDK extends the harness beyond coding.
 - [Codex](https://github.com/openai/codex) — OpenAI's coding agent. Cloud and CLI modes.
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril): Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 - [OpenCode](https://github.com/sst/opencode) — Open-source coding agent with a plugin system (44 lifecycle hooks), server mode HTTP API, and TypeScript SDK. The most extensible harness integration point for custom workflows.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's CLI coding agent.
 - [Kiro CLI](https://kiro.dev/) — AWS's CLI coding agent with spec-driven workflow.
