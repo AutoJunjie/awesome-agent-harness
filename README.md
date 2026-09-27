@@ -123,6 +123,7 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
 - [CodeBurn](https://github.com/AgentSeal/codeburn) — Claude Code token usage analytics. Breaks down token consumption by task, enabling cost attribution and optimization.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) — Developer-alpha Rust CLI and MCP server for encrypted, append-only knowledge records with scoped, expiring grants for agent retrieval. MIT-licensed; install from source.
 
 ## Coding Agents
 
