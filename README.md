@@ -52,6 +52,8 @@ Tools that span from requirements to delivery with human-in-the-loop approval.
 - [Almirant](https://almirant.ai/?utm_source=awesome-agent-harness&utm_medium=awesome-list&utm_campaign=march-2026) — Operating system for human-agent teams. Persistent context across sessions, shared memory between agents, structured task lifecycle (plan → implement → review → deploy), and human approval gates. Designed for teams where humans and agents work together continuously — not just one-shot task execution.
 - [Paperclip](https://github.com/paperclipai/paperclip) — Open-source orchestration for zero-human companies. Budget/cost tracking, company templates (ClipMart), and autonomous agent coordination. Pushes the "agents execute" principle to its extreme — designed for fully autonomous operation with no human in the loop.
 - [Multica](https://github.com/multica-ai/multica) — Open-source managed agents platform. "Turn coding agents into real teammates" — assign tasks, track progress, compound skills across sessions. Validates the core premise that agents need team-level management, not just individual harnesses.
+- [Agent Barn](https://github.com/aai-labs/agent-barn) - Open-source (Apache-2.0) control plane for AI agents. Teams talk to agents in Slack, Teams, Telegram, Discord or email; agents work across Jira, GitHub, Confluence and more; every conversation, tool call, log and cost is recorded. Runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster, deployed with Helm.
+
 
 ## Agent Orchestrators
 
