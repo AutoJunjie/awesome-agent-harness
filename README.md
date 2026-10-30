@@ -140,6 +140,7 @@ The execution layer. In harness engineering, the agent is a commodity — the ha
 - [Warp AI](https://www.warp.dev/) — Terminal-native coding agent with built-in AI. Agentic workflows inside the terminal itself.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Self-improving agent loop with persistent memory and self-generated skills. The agent that grows with you — learns from execution history and evolves its own capabilities over time.
 - [Pi Mono](https://github.com/badlogic/pi-mono) — AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods. Full-stack agent infrastructure in a single monorepo.
+- [Volt](https://github.com/LeulAria/VOLT) — Open-source AI code editor on the VS Code core: runs Claude Code, Codex, OpenCode and ACP agents or local models under one permission broker, with hunk-level keep/undo and per-turn Git checkpoints.
 
 ## Requirements & Spec Tools
 
