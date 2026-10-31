@@ -202,6 +202,8 @@ Development methodologies and workflow definitions designed for agentic software
 - [AI Agent Harness Pricing Split](https://thenewstack.io/ai-agent-harness-pricing-split/) — The New Stack reports on industry consensus: Anthropic, OpenAI, Google, and Microsoft all agree the harness is the product — but diverge on pricing strategy.
 - [Skills Are Harness Engineering You Can Do in a Markdown File](https://www.ikangai.com/skills-are-harness-engineering-you-can-do-in-a-markdown-file) — Defining "Skills" as the most accessible form of harness engineering: structured Markdown files that shape agent behavior without code changes.
 - [Harness Engineering Guide](https://agentic-engineering.swmansion.com/becoming-productive/harness-engineering/) — Software Mansion's comprehensive guide to harness engineering as a practice. Covers environment design, constraint enforcement, and feedback loop construction.
+- [Agent Harness Guide](https://agentharnessguide.com/) — A reference edition on agent harnesses: what a harness owns, where each open-source runtime keeps the session record, and how the layers fit across Codex, Claude Code, OpenCode and Kortix.
+
 - [Multi-Agent Coordination Patterns](https://claude.com/blog/multi-agent-coordination-patterns) — Anthropic documents the "cheap executor + expensive advisor" pattern. Haiku for execution, Opus for decisions — reshaping the cost structure of agent orchestration.
 
 ### Talks
