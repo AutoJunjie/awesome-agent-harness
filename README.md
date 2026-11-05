@@ -120,6 +120,7 @@ Agents that run across sessions need persistent memory and shared knowledge. The
 
 - [claude-mem](https://github.com/thedotmack/claude-mem) — Automatic session capture with AI compression and injection into future sessions. Solves the stateless-agent problem by giving Claude Code persistent memory across runs.
 - [cq](https://github.com/nicholasgasior/cq) — Mozilla developer project enabling AI coding agents to share learned knowledge. A commons where agents deposit and retrieve solutions, avoiding redundant problem-solving. Has Claude Code and OpenCode plugins.
+- [deja-vu](https://github.com/vshulcz/deja-vu) — Local cross-harness session memory across 43 coding agents (Claude Code, Codex, Cursor, OpenCode, Gemini CLI). Recovers pre-compaction context and past project fixes via hooks and MCP without an LLM or external API.
 - [Honcho](https://github.com/plastic-labs/honcho) — Agent state memory library. Provides the persistence layer for stateful agents — session history, user context, and learned preferences.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — Agent memory that learns. Automatically captures, indexes, and retrieves agent execution history to improve future task performance.
 - [CodeBurn](https://github.com/AgentSeal/codeburn) — Claude Code token usage analytics. Breaks down token consumption by task, enabling cost attribution and optimization.
