@@ -152,6 +152,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [Pencil](https://pencil.dev/) — MCP-enabled design canvas inside VSCode/Cursor. Design files live in the repo under Git version control, bridging visual spec to code generation. Closed source.
 - [Open Pencil](https://github.com/open-pencil/open-pencil) — Open-source AI-native design editor (MIT). 75+ tools and an MCP server let coding agents read/write .fig files headlessly.
 - [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) — Anthropic's design tool with direct handoff to Claude Code. Closes the design-to-code loop for solo developers and agent workflows.
+- [Kite](https://kite.new/) — Hosted MCP design canvas shared by agents and teams. Claude Code, Codex or Cursor draw real, editable frames, text and components in the same file the team edits live, then copy frames as HTML, React or Tailwind for the build step. Closed source; agent plugins open at [kitedotnew/kite-agent-plugins](https://github.com/kitedotnew/kite-agent-plugins).
 - [Archon](https://github.com/coleam00/Archon) — First open-source harness builder. Makes AI coding deterministic and repeatable through structured harness configuration.
 
 ## Standards & Protocols
