@@ -162,6 +162,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [GitAgent](https://github.com/open-gitagent/gitagent) — Git-native, framework-agnostic standard for defining AI agents. Your repo is the agent: agent.yaml manifest + SOUL.md identity + RULES.md constraints.
 - [ACP (Agent Communication Protocol)](https://agentcommunicationprotocol.dev/) — Open protocol for agent-to-agent and agent-to-harness communication. Enables interoperability across coding agents and orchestrators.
 - [HXA-Connect](https://github.com/coco-xyz/hxa-connect) — B2B messaging hub for AI agents. WebSocket-based real-time communication with org-scoped authentication, collaboration threads, @mention routing, and reply-to threading. Enables multi-agent coordination across different harnesses.
+- [PACT](https://github.com/Balanov/pact) — Verifiable trail format for agent-initiated payments: quote, consent, commit and receipt chained by digests, verifiable offline without a shared service.
 
 ## Methodologies & Workflows
 
